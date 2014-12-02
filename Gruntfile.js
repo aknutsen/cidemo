@@ -430,7 +430,7 @@ module.exports = function (grunt) {
     'autoprefixer',
     'connect:test',
     'karma',
-    //'protractor_webdriver',
+    'protractor_webdriver',
     'protractor:run'
   ]);
 
@@ -452,7 +452,7 @@ module.exports = function (grunt) {
   ]);
 
   grunt.registerTask('default', [
-    'newer:jshint',
+    //'newer:jshint',
     'test',
     'build'
   ]);
